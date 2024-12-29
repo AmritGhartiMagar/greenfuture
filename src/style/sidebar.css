@@ -1,0 +1,27 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 2px;
+}
+.tabs {
+    display: flex;
+    flex-direction: column; /*Arrange tabs vertically*/
+  }
+  .employee-item{
+    display: flex;
+    flex-direction: row;
+  }
+.tab {
+    background-color: #ffffff; /* Tab background color */
+    color: #333; /* Tab text color */
+    padding: 10px 15px; /* Space inside tabs */
+    margin-bottom: 5px; /* Space between tabs */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Border around tabs */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}

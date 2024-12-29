@@ -1,0 +1,97 @@
+/* Style for the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px; /* Add space at the top */
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center; /* Center the form horizontally */
+  padding-bottom: 30px;
+  background: #ffffff;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #ffffff ;
+  }
+  .text{
+    color: #9331c4;
+    font-size: 48px;
+    font-weight: 700;
+    background-color: #ffffff ;
+    
+  }
+  .underline{
+    width: 120px;
+    height: 6px;
+    background: #9221ce ;
+    border-radius: 9px;
+  }
+  .inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .input{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 50px;
+    background:#ffffff;
+    border-radius: 6px;
+  }
+  /* .submitContainer{
+    display: flex;
+    gap: 50px;
+    margin: 60px auto;
+  } */
+  .submitContainer {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: #ffffff ;
+    background-color: #9221ce;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .tt {
+    margin: auto;
+  }
+  .gotosignuplogin{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: #010000 ;
+    background-color:  #ffffff;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+  }.error-message {
+    color: red;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .success-message{
+    color: #9221ce;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  

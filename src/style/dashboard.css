@@ -1,0 +1,48 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background: #ffffff;
+}
+.maincontent{
+    flex: 1;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    overflow-y:auto ;
+}  
+.ideaheader{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin: auto;
+    justify-content:space-around;
+
+}
+
+.ideacontent{
+    color: blueviolet;
+    background-color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    
+    
+}
+.inputdescription{
+    width:1000px; /* Set the width of the input */
+    height: 100px; /* Set the height of the input */
+    padding: 10px; /* Add some padding inside the input */
+    font-size: 16px; /* Adjust the font size */
+    border: 1px solid #000; /* Set a border thickness */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total size */
+}
+.inputtopic{
+    width:1000px;
+    height: 50px; /* Set the height of the input */
+    
+    
+}
+/* .inputs{
+    justify-content: left;
+    align-items: start ;
+} */

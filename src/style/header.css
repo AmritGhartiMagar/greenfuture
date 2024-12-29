@@ -1,0 +1,27 @@
+.headercontainer {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the form horizontally */
+    padding-bottom: 00px;
+    background: hwb(150 94% 5%);
+}
+.headername{
+    display: flex;
+    justify-content:center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.userProfile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+}
+.header{
+    color: #9331c4;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #ffffff ;
+}
